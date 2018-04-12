@@ -1,8 +1,8 @@
 import urllib.request
 import json
 
-weather_token = "CWB-605E85E4-5367-4916-A5E3-891848C1EC18"
-Data_set = "F-C0032-001"
+weather_token = ""
+Data_set = ""
 url = 'http://opendata.cwb.gov.tw/api/v1/rest/datastore/{Data_set}?sort=time'.format(Data_set=Data_set)
 request = urllib.request.Request(url)
 
