@@ -1,3 +1,3 @@
-from app_dir import app
+from app_dir.app import *
 
 app.run()
