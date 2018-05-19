@@ -19,3 +19,4 @@ virtualenv==15.2.0
 virtualenv-clone==0.3.0
 virtualenvwrapper==4.8.2
 Werkzeug==0.14.1
+gunicorn==19.6.0
